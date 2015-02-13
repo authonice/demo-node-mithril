@@ -1,0 +1,49 @@
+{
+  "name": "demo-node-mithril",
+  "version": "0.0.1",
+  "description": "Demo of authonice with node backend & mithril frontend",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/authonice/demo-node-mithril.git"
+  },
+  "keywords": [
+    "mithril",
+    "node",
+    "mongoose",
+    "authentication",
+    "demo"
+  ],
+  "author": "David Konsumer <konsumer@jetboystudio.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/authonice/demo-node-mithril/issues"
+  },
+  "homepage": "https://github.com/authonice/demo-node-mithril",
+  "dependencies": {
+    "animate.less": "git://github.com/konsumer/animate.less",
+    "authonice": "",
+    "authonice-mithril": "",
+    "body-parser": "^1.11.0",
+    "bootstrap": "^3.3.2",
+    "bootswatch": "^3.3.2",
+    "browserify-middleware": "^5.0.1",
+    "colors": "^1.0.3",
+    "dotenv": "^0.5.1",
+    "express": "^4.11.2",
+    "less-middleware": "^1.0.4",
+    "mithril": "^0.1.30",
+    "mongoose": "^3.8.23",
+    "mongoose-bcrypt": "^1.1.0",
+    "mongoose-type-email": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^2.0.0",
+    "mocha": "^2.1.0",
+    "mockgoose": "^1.10.7"
+  }
+}
