@@ -32,10 +32,10 @@ var Navbar = module.exports = {
   view: function(ctrl) {
     return m('nav.navbar.navbar-inverse.navbar-fixed-top', [
       m('.container', [
-        m('.navbar-header',
+        m('.navbar-header', [
           m('button.navbar-toggle', {onclick: ctrl.toggle}, m('.glyphicon.glyphicon-chevron-' + ctrl.iconDirection())),
           m('a.navbar-brand', {href:'/', config: m.route}, ctrl.name())
-        ),
+        ]),
         m('.navbar-collapse.' + ctrl.iconDirection(), 
           m('ul.nav.navbar-nav.navbar-right', ctrl.links().map(function(l){
             var r = (m.route().substr(1).split('/'));
